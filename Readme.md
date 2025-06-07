@@ -1,10 +1,10 @@
-### 📦 Tech Stack
+### Tech Stack
 - FastAPI
 - Supabase Auth (JWT)
 - PostgreSQL
 - SQLAlchemy ORM
 
-### 🚀 Getting Started
+### Getting Started
 1. Clone the repo
 2. Create `.env` with `DATABASE_URL` and `SUPABASE_JWT_SECRET`
 3. Create and activate a virtual environment:
@@ -17,9 +17,9 @@
 6. Visit [http://localhost:8000/docs](http://localhost:8000/docs)
 
 
-### 📘 API
+### API
 
-## 🔐 Authentication
+## Authentication
 Get a token using the POST API gettoken by passing your email and password.
 POST `/get_token`
 ```json
